@@ -16,13 +16,15 @@
 		811CDEDE18CD1585009382BE /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 811CDEDC18CD1585009382BE /* Main_iPhone.storyboard */; };
 		811CDEE118CD1585009382BE /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 811CDEDF18CD1585009382BE /* Main_iPad.storyboard */; };
 		811CDEE418CD1585009382BE /* TSDMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 811CDEE318CD1585009382BE /* TSDMainViewController.m */; };
-		811CDEE718CD1585009382BE /* TSDFlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 811CDEE618CD1585009382BE /* TSDFlipsideViewController.m */; };
 		811CDEE918CD1585009382BE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 811CDEE818CD1585009382BE /* Images.xcassets */; };
 		811CDEF018CD1585009382BE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 811CDEEF18CD1585009382BE /* XCTest.framework */; };
 		811CDEF118CD1585009382BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 811CDECA18CD1585009382BE /* Foundation.framework */; };
 		811CDEF218CD1585009382BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 811CDECE18CD1585009382BE /* UIKit.framework */; };
 		811CDEFA18CD1585009382BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 811CDEF818CD1585009382BE /* InfoPlist.strings */; };
 		811CDEFC18CD1585009382BE /* TapsidecimalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 811CDEFB18CD1585009382BE /* TapsidecimalTests.m */; };
+		811CDF0718CD9FE3009382BE /* TSDColorsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 811CDF0618CD9FE3009382BE /* TSDColorsTableViewController.m */; };
+		811CDF0A18CDB39E009382BE /* UIColor+Tapsidecimal.m in Sources */ = {isa = PBXBuildFile; fileRef = 811CDF0918CDB39E009382BE /* UIColor+Tapsidecimal.m */; };
+		81C7AB6918D0AF2C00DA07C6 /* NSMutableArray+ColorsData.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C7AB6818D0AF2C00DA07C6 /* NSMutableArray+ColorsData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,14 +52,19 @@
 		811CDEE018CD1585009382BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		811CDEE218CD1585009382BE /* TSDMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSDMainViewController.h; sourceTree = "<group>"; };
 		811CDEE318CD1585009382BE /* TSDMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSDMainViewController.m; sourceTree = "<group>"; };
-		811CDEE518CD1585009382BE /* TSDFlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSDFlipsideViewController.h; sourceTree = "<group>"; };
-		811CDEE618CD1585009382BE /* TSDFlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSDFlipsideViewController.m; sourceTree = "<group>"; };
 		811CDEE818CD1585009382BE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		811CDEEE18CD1585009382BE /* TapsidecimalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapsidecimalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		811CDEEF18CD1585009382BE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		811CDEF718CD1585009382BE /* TapsidecimalTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TapsidecimalTests-Info.plist"; sourceTree = "<group>"; };
 		811CDEF918CD1585009382BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		811CDEFB18CD1585009382BE /* TapsidecimalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapsidecimalTests.m; sourceTree = "<group>"; };
+		811CDF0518CD9FE3009382BE /* TSDColorsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSDColorsTableViewController.h; sourceTree = "<group>"; };
+		811CDF0618CD9FE3009382BE /* TSDColorsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSDColorsTableViewController.m; sourceTree = "<group>"; };
+		811CDF0818CDB39E009382BE /* UIColor+Tapsidecimal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Tapsidecimal.h"; sourceTree = "<group>"; };
+		811CDF0918CDB39E009382BE /* UIColor+Tapsidecimal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Tapsidecimal.m"; sourceTree = "<group>"; };
+		8175C70C18CF2B390046CDB3 /* Constants.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.pch; sourceTree = "<group>"; };
+		81C7AB6718D0AF2C00DA07C6 /* NSMutableArray+ColorsData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+ColorsData.h"; sourceTree = "<group>"; };
+		81C7AB6818D0AF2C00DA07C6 /* NSMutableArray+ColorsData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+ColorsData.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,8 +130,9 @@
 				811CDEDF18CD1585009382BE /* Main_iPad.storyboard */,
 				811CDEE218CD1585009382BE /* TSDMainViewController.h */,
 				811CDEE318CD1585009382BE /* TSDMainViewController.m */,
-				811CDEE518CD1585009382BE /* TSDFlipsideViewController.h */,
-				811CDEE618CD1585009382BE /* TSDFlipsideViewController.m */,
+				811CDF0518CD9FE3009382BE /* TSDColorsTableViewController.h */,
+				811CDF0618CD9FE3009382BE /* TSDColorsTableViewController.m */,
+				811CDF0B18CDB3B4009382BE /* Model */,
 				811CDEE818CD1585009382BE /* Images.xcassets */,
 				811CDED118CD1585009382BE /* Supporting Files */,
 			);
@@ -137,6 +145,7 @@
 				811CDED218CD1585009382BE /* Tapsidecimal-Info.plist */,
 				811CDED318CD1585009382BE /* InfoPlist.strings */,
 				811CDED618CD1585009382BE /* main.m */,
+				8175C70C18CF2B390046CDB3 /* Constants.pch */,
 				811CDED818CD1585009382BE /* Tapsidecimal-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -158,6 +167,17 @@
 				811CDEF818CD1585009382BE /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		811CDF0B18CDB3B4009382BE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				811CDF0818CDB39E009382BE /* UIColor+Tapsidecimal.h */,
+				811CDF0918CDB39E009382BE /* UIColor+Tapsidecimal.m */,
+				81C7AB6718D0AF2C00DA07C6 /* NSMutableArray+ColorsData.h */,
+				81C7AB6818D0AF2C00DA07C6 /* NSMutableArray+ColorsData.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,7 +225,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = TSD;
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Colin Jackson";
 				TargetAttributes = {
 					811CDEED18CD1585009382BE = {
@@ -259,9 +279,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				811CDEE718CD1585009382BE /* TSDFlipsideViewController.m in Sources */,
+				811CDF0A18CDB39E009382BE /* UIColor+Tapsidecimal.m in Sources */,
 				811CDEE418CD1585009382BE /* TSDMainViewController.m in Sources */,
+				81C7AB6918D0AF2C00DA07C6 /* NSMutableArray+ColorsData.m in Sources */,
 				811CDEDB18CD1585009382BE /* TSDAppDelegate.m in Sources */,
+				811CDF0718CD9FE3009382BE /* TSDColorsTableViewController.m in Sources */,
 				811CDED718CD1585009382BE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -324,7 +346,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -364,7 +385,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -423,7 +443,6 @@
 		811CDF0318CD1585009382BE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Tapsidecimal.app/Tapsidecimal";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -446,7 +465,6 @@
 		811CDF0418CD1585009382BE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Tapsidecimal.app/Tapsidecimal";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -481,6 +499,7 @@
 				811CDF0118CD1585009382BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		811CDF0218CD1585009382BE /* Build configuration list for PBXNativeTarget "TapsidecimalTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +508,7 @@
 				811CDF0418CD1585009382BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

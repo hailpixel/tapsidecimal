@@ -8,11 +8,18 @@
 
 #import "TSDAppDelegate.h"
 
+@interface TSDAppDelegate ()
+
+- (void)appearanceSetup;
+
+@end
+
 @implementation TSDAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    [self appearanceSetup];
+    
     return YES;
 }
 							
@@ -41,6 +48,30 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+
+#pragma mark - Private methods
+- (void)appearanceSetup
+{
+    // Set nav bar font differently for iPad and iPhone
+    UIFont *navBarTitleFont;
+    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) navBarTitleFont = [UIFont fontWithName:@"HiraKakuProN-W3" size:20.0];
+    else navBarTitleFont = [UIFont fontWithName:@"HiraKakuProN-W6" size:20.0];
+    
+    // Colors defined in Constants.pch
+    NSMutableDictionary *attributes = [NSMutableDictionary dictionaryWithDictionary:@{NSForegroundColorAttributeName: WHITEPRIMARY,
+                                                                                      NSFontAttributeName: navBarTitleFont}];
+    
+    [[UINavigationBar appearance] setTitleTextAttributes:attributes];
+    [[UINavigationBar appearance] setBarTintColor:[UIColor colorWithHue:0.0f saturation:0.0f brightness:0.0f alpha:1.0f]];
+    [[UINavigationBar appearance] setAlpha:0.85f];
+    
+    // Maintain font but change size for bar buttons
+    UIFont *barButtonItemFont = [UIFont fontWithName:navBarTitleFont.fontName size:16.0f];
+    [attributes addEntriesFromDictionary:@{NSFontAttributeName: barButtonItemFont}];
+    
+    [[UIBarButtonItem appearance] setTitleTextAttributes:attributes forState:UIControlStateNormal];
 }
 
 @end
